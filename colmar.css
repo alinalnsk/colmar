@@ -1,6 +1,4 @@
-h1 {
-height: 32px;
-}
+
 
 .ic-logo {
     display: inline-block;
@@ -30,7 +28,7 @@ height: 32px;
     margin: 13px;
     padding: 12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 25px;
     transition: all 0.5s ease-out;
     text-decoration: none;
@@ -67,7 +65,7 @@ height: 32px;
 
 .gray-container {
     display: flex;
-    background-color: gray;
+    background-color: lightgray;
     margin: 10px;
 }
 
@@ -76,11 +74,134 @@ height: 32px;
     padding: 32px 24px;
 }
 
-.learn {
-    opacity: 0.7;
+.learn, .lorem {
+    font-weight: bold;
     text-align: center;
+    opacity: 0.7;
+    margin: 10px;
+}
+
+.start {
+    background-color: #606060;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
 
 .sans {
     font-family: sans-serif;
+}
+
+.text {
+   
+    padding-right: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.practice {
+    display: flex;
+}
+
+.first {
+    width: 60%;
+    padding-right: 20px;
+    
+}
+
+.first-img {
+    width: 96%;
+    padding: 32px 24px;
+}
+
+.padding {
+    padding-left: 23px;
+}
+
+.second {
+    width: 40%;
+    padding-top: 32px;
+    border-left: 1px solid lightgray;
+}
+
+.f1-h2 {
+  margin-top: 0;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.f1-p {
+    font-weight: lighter;
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.f1-h6 {
+    font-weight: 400;
+    opacity: 0.9;
+    padding-bottom: 32px;
+}
+
+.t3con {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+
+.t3-img {
+    float: left;
+    margin-right: 10px;
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.or {
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.our {
+    background-color: lightgray;
+}
+
+.t3-h3 {
+    font-weight: 400;
+    opacity: 0.6;
+    margin: 0;
+}
+
+.t3-h6 {
+    font-weight: lighter;
+    opacity: 0.7;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.text-align {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.read {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.read:hover {
+    color: rgb(195, 36, 68);
+}
+
+.read {
+    transition: all 0.5s ease-out;
 }
