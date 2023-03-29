@@ -25,13 +25,15 @@
 .header a {
     float: left;
     color: black;
-    margin: 13px;
+    margin-top: 8px;
     padding: 12px;
     text-align: center;
     font-size: 17px;
     line-height: 25px;
     transition: all 0.5s ease-out;
     text-decoration: none;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .header a:hover {
@@ -107,6 +109,7 @@
 
 .practice {
     display: flex;
+    padding-bottom: 32px;
 }
 
 .first {
@@ -205,3 +208,268 @@
 .read {
     transition: all 0.5s ease-out;
 }
+
+.start-learning {
+    background-color: lightgray;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.h1-start {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin: 0;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 27px;
+}
+
+.first-3 {
+    display: flex;
+    
+}
+
+.second-3 {
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.img-start {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 16px;
+    
+    
+}
+
+.software,.computer,.design,.data,.business,.marketing {
+    width: 33%;
+    background-color: white;
+    flex-direction: column;
+    margin: 16px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    padding-left: 16px;
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+
+.courses {
+    padding-left: 16px;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #484646;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.text-6 {
+    padding-left: 16px;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 18px;
+    color: #484646;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.h1-thesis {
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+
+
+.video-sections {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.reimagine {
+    font-weight: bold;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.p-cur {
+    font-weight: lighter;
+    opacity: 0.7;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+#two-sections {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.fisma-section {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.now-and-then-section {
+display: flex;
+align-items: center;
+}
+
+.two-sections {
+    width: 40%;
+}
+
+.img-fisma {
+    width: 35%;
+    padding: 16px;
+}
+
+.img-now-and-then {
+    width: 35%;
+    padding: 16px;
+}
+
+.section-text {
+    font-weight: 400;
+    opacity: 0.6;
+    font-size: 18px;
+    margin: 0;
+}
+
+.h5-text-section {
+    font-weight: lighter;
+    opacity: 0.7;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.fa-copyright {
+    font-size: 8px;
+    padding-left: 24px;
+    margin-top: 13px;
+    padding-right: 2px;
+
+}
+
+#footer {
+ font-size: 11px;
+ opacity: 0.7;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    display: flex;
+}
+
+.terms-and-privacy {
+    padding-right: 24px;
+    padding-top: 8px;
+}
+
+.terms {
+    color: black;
+    font-size: 11px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.img-header {
+    height: 60px;
+    
+}
+
+@media only screen and (max-width: 890px) {
+    /* Hide the colmar and academy headings when screen width is smaller than 890px */
+    .colmar, .academy {
+      display: none;
+    } 
+
+    .header-right a span {
+        display: none;
+      }
+
+      .header-right a:nth-child(3) {
+        display: none;
+      }
+       .ic-logo {
+        padding-left: 30px;
+       }
+
+       .gray-container {
+        display: grid;
+       }
+
+       .gray-c-img {
+        width: 100%;
+        padding: 0;
+       }
+      
+       .learn {
+        padding-top: 20px;
+       }
+
+       .text {
+        padding-left: 25px;
+        padding-top: 12px;
+       }
+
+       .lorem {
+        line-height: 26px;
+        font-size: 18px;
+       }
+
+       .first {
+        display: none;
+       }
+
+       .header {
+        justify-content: space-between;
+       }
+
+       .header-right {
+        display: flex;
+        justify-content: space-around;
+       }
+    }
+      
+    /*.img-header {
+        display: none;
+    }
+    */
+  @media only screen and (min-width: 891px) {
+    .img-header {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 505px) {
+
+    .icons {
+        height: 40px;
+      }
+    
+      .ic-logo {
+        padding-bottom: 20px;
+      }
+  }
