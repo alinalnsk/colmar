@@ -451,16 +451,147 @@ align-items: center;
         display: flex;
         justify-content: space-around;
        }
+
+       .mobile-img {
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        
+       }
+
+       .second {
+        width: 100%;
+        border: none;
+        padding: 16px;
+       }
+
+       .t3con {
+        flex-direction: column;
+        border-bottom: none;
+        align-items: flex-start;
+       }
+
+       .t3-img {
+        display: none;
+       }
+
+       .our {
+        background-color: white;
+       }
+       
+       .text-align {
+        padding-left: 16px;
+       }
+
+       .t3-h3 {
+        letter-spacing: 2px;
+        font-weight: 800;
+        font-size: 24px;
+       }
+
+       .t3-h6 {
+        font-size: 16px;
+        letter-spacing: 1px;
+       }
+
+       .read {
+        font-size: 15px;
+        letter-spacing: 1px;
+       }
+
+       
+  .software > *:not(.img-start):not(.links),
+  .computer > *:not(.img-start):not(.links),
+  .design > *:not(.img-start):not(.links),
+  .data > *:not(.img-start):not(.links),
+  .business > *:not(.img-start):not(.links),
+  .marketing > *:not(.img-start):not(.links) {
+    display: none;
+  }
+  
+  
+
+  /* make links visible and arrange them in column direction */
+  .start-learning {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .links {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+  }
+
+  .img-start {
+    display: none;
+  }
+
+  .first-3,
+  .second-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .software,
+  .computer,
+  .design,
+  .data,
+  .business,
+  .marketing {
+    width: 100%;
+    margin: 8px 0;
+    padding: 16px;
+    text-align: center;
+    background-color: lightgray;
     }
-      
-    /*.img-header {
+
+    .h1-start {
+        padding-bottom: 16px;
+        font-size: 35px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .h1-thesis {
+        font-size: 35px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .two-sections, .reimagine, .p-cur, .terms-and-privacy {
         display: none;
     }
-    */
+
+    .video-sections {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    
+}
+    
+      
+    
   @media only screen and (min-width: 891px) {
     .img-header {
         display: none;
     }
+     
+    .mobile-img {
+        display: none;
+      }
   }
 
   @media only screen and (max-width: 505px) {
@@ -472,4 +603,13 @@ align-items: center;
       .ic-logo {
         padding-bottom: 20px;
       }
+
+      
+  }
+
+  @media only screen and (min-width: 1480px){
+    .text {
+        padding-left: 67px;
+        padding-right: 37px;
+    }
   }
